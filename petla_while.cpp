@@ -9,14 +9,14 @@ int main()
 	
 	do
 	{
-		cout<<"Podaj liczbe:";
+		cout<<"Podaj liczbę: ";
 		cin>>liczba;
 		suma= liczba+suma;
 		k=k+1;
 }
-	while (suma<50);
-	cout<< "Suma podanych liczb to:"<<suma<<endl;
-	cout<<"Ilosc wprowadzonych liczb to:"<<k<<endl;
+	while (suma<=30);
+	cout<< "Suma podanych liczb to: "<<suma<<endl;
+	cout<<"Ilość wprowadzonych liczb to: "<<k<<endl;
 	
 
 
