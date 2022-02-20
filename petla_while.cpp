@@ -12,7 +12,7 @@ int main()
 		cout<<"Podaj liczbę: ";
 		cin>>liczba;
 		suma= liczba+suma;
-		k=k+1;
+		k=k+3;
 }
 	while (suma<=30);
 	cout<< "Suma podanych liczb to: "<<suma<<endl;
